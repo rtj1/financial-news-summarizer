@@ -47,7 +47,7 @@ financial-news-summarizer/
 
 ### 🔧 Local Setup
 ```bash
-git clone https://github.com/YOUR_USERNAME/financial-news-summarizer.git
+git clone https://github.com/rtj1/financial-news-summarizer
 cd financial-news-summarizer
 python3 -m venv venv && source venv/bin/activate
 pip install -r requirements.txt
@@ -65,11 +65,6 @@ python model/summarizer.py
 python utils/ranker.py
 ```
 
----
-
-## 🌐 Live Preview (Optional)
-
-> If deployed to Hugging Face or Render, insert link here
 
 ---
 
