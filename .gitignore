@@ -1,0 +1,34 @@
+# Ignore virtual environments
+venv/
+.env/
+
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Logs and system files
+*.log
+.DS_Store
+
+# Model files / large binary data
+*.pkl
+*.pt
+*.onnx
+*.h5
+
+# Gradio temp / output files
+gradio_cached_examples/
+outputs/
+
+# Auto-generated data
+data/news_raw.json
+data/news_summaries.json
+data/news_ranked.json
+
+# OS metadata
+Thumbs.db
+ehthumbs.db
+
+# Jupyter checkpoints (if any)
+.ipynb_checkpoints/

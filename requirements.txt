@@ -1,0 +1,11 @@
+beautifulsoup4
+requests
+transformers
+sentence-transformers
+torch
+scikit-learn
+nltk
+fastapi
+uvicorn
+pydantic
+faiss-cpu
